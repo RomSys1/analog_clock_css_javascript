@@ -19,7 +19,7 @@ body{
     justify-content: center;
     align-items: center;
 
-    background: white url("./toweb/clock.png");
+    background: white url("./images/clock.png");
     background-size: cover;
     
     border-radius: 50%;
@@ -90,7 +90,7 @@ body{
     border-radius: 6px 6px 0 0;
 }
 
-.mn::before{
+.sc::before{
     /* haciendo visible el palito del SEGUNDERO */
     content: "";
     position: absolute;
