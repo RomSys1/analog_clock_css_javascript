@@ -25,3 +25,15 @@ body{
                       0 20px 20px rgba(0, 0, 0, 0.2),
                       0 0 0 4px rgba(255, 255, 255, 1);
 }
+
+/* punto central del reloj */
+.clock::before{
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: #848484;
+    border: 2px solid #fff;
+    z-index: 100000;
+    border-radius: 50%;
+}
